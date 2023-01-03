@@ -330,7 +330,6 @@ header .header_bottom .header_bottom_inner{
     font-size: 25px;
     color: #191d34;
     line-height: 1.5;
-    padding: 0 80px;
     margin-bottom: 37px;
     text-align: center;
 }
@@ -536,3 +535,94 @@ footer .footer_bottom .footer_border a{
     text-decoration: none;
 }
 /* media  */
+
+
+@media screen and (max-width: 693px) {
+
+    .section1 .item p{
+        font-size:13px;
+        width: 100%;
+    }
+    .section1 .item h1{
+        font-size: 32px;
+        width: 100%;
+    }
+    .section1 .item .bttn{
+        padding: 11px 13px;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    header .header_bottom_inner{
+        flex-direction: column;
+    }
+    header .header_bottom_inner .bttn{
+        padding: 10px 37px;
+        margin-top: 9px;
+    }
+}
+
+
+@media screen and (max-width: 764px) {
+    header .header_bottom_inner .list{
+        flex-direction: column;
+        gap: 1%;
+    }
+}
+
+
+@media screen and (max-width: 975px) {
+    header .header_bottom_inner .logo{
+        width: 25%;
+        margin-bottom: 10px;
+    }
+ 
+}
+
+
+@media screen and (max-width: 767px) {
+    header .header_top .linking ul{
+        font-size: 10px;
+    }
+    header .header_top .linking ul{
+        font-size: 10px;
+    }
+ 
+}
+
+
+@media screen and (max-width: 800px) {
+    .section6 .item .testimonal{
+        width:8%;
+    }
+    .section6 .item p{
+        font-size: 9px;
+    }
+    .section7 .title h2 {
+        font-size: 34px;
+    }
+    .section6 .rating_caption span{
+        font-size: 13px;
+    }
+    .section6 .testimonal_ratting{
+        margin-top: -32px;
+    }
+}
+
+@media screen and (max-width: 912px) {
+    .section8 h3{
+        font-size: 26px;
+    }  
+    .section8 p{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 412px) {
+    .section3 .content_inner h2{
+        font-size: 23px;
+    }
+    .section3 .content_inner .button .bttn{
+        padding: 10px 29px;
+    }
+}
